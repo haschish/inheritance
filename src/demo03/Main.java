@@ -1,3 +1,5 @@
+package demo03;
+
 class A {
     private int x;
     public int y;
@@ -11,11 +13,11 @@ class A {
 }
 
 class B extends A {
-    public void smthMethod() {
+    public void foo() {
     }
 }
 
-public class Access03 {
+public class Main {
     public static void main (String[] args) {
         B b = new B();
     }
