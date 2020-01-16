@@ -1,12 +1,13 @@
 package demo06;
 
 public class Circle extends Shape {
-    private final Point center;
-    private final double radius;
+    private Point center;
+    private double radius;
 
     public Circle() {
 
     }
+
     public Circle(Point center, double radius, String color) {
         super(color);
         this.center = center;
